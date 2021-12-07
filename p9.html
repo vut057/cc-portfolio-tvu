@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Tracy Vu| Critical Computaion I Portfolio</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+
+  <body>
+    <!-- navigation menu -->
+    <div class="nav">
+      <h1>Tracy Vu</h1>
+      <ul>
+        <li>Project <a href="p1.html">#1</a></li>
+        <li>Project <a href="p2.html">#2</a></li>
+        <li>Project <a href="p3.html">#3</a></li>
+        <li>Project <a href="p4.html">#4</a></li>
+        <li>Project <a href="p5.html">#5</a></li>
+        <li>Project <a href="p6.html">#6</a></li>
+        <li>Project <a href="p7.html">#7</a></li>
+        <li>Project <a href="p8.html">#8</a></li>
+        <li>Project <a href="p9.html">#9</a></li>
+      </ul>
+    </div>
+
+    <!-- main content -->
+    <div class="content">
+      <!-- 1. give your project  a titile -->
+
+      <h1>
+        Project #9: Consentful Interface
+      </h1>
+
+      <!-- 2. embed your p5 sketch -->
+
+      <div class="fullwidth">
+        <!-- below width and height refers to the dimensions of your sketch-->
+
+        <iframe
+          allow="camera"
+          width="600px"
+          height="600px"
+          src="https://editor.p5js.org/vut057/full/9YoK03qBp"></iframe>
+        </iframe>
+        
+
+      </div>
+
+      <!-- 3. write a short description to describe what the work is about -->
+      <h1>
+        Description
+      </h1>
+
+      <p>
+        For this assignment, students referred to Una Lee and Dan Toliver's Consentful Tech Zine to inform the design of our DOM interface. The zine talks about how there is little discussion about how technologies manipulate interfaces to gain access to our digital bodies: bits of data and metadata linked to our physical identities.
+      </p>
+    <p>
+      Lee and Toliver adapted Planned Parenhood's F.R.I.E.S acronym and applied it to what they call consentful interface.<br>
+      <ol>
+        <li>Freely Given: Design interfaces that dont mislead people into giving information they wouldn't normally provide</li>
+        <li>Reversible: Give people the right to limit access or entirely remove their data at any time</li>
+        <li>Informed: Be transparent in how you plan on using peoples' data. Use clear and accessible language to inform users about the risks they present and the data they're storing. Don't hide this info in pages of fine print such as most terms & conditions.</li>
+        <li>Enthusiastic: Don't force people to give up data in order to access the service, allow them to choose if they want to access.</li>
+        <li>Specific: If a person says yes to one thing, it doesn't mean they've said yes to others. Technologies should not use a person's data that has be acquired through other means such as third-parties</li>
+    </ol>
+    </p>
+
+      <!-- 4. reflection -->
+      <h1>
+        Design Process
+      </h1>
+
+
+         <div class="fullwidth">
+  <img src="https://cdn.glitch.me/272f8536-a53a-4fba-99bc-56b6724131b0%2Fsketchdrawings.png?v=1638865473911" width="800" height="500"/>
+  
+  <div class="divscroll"><center>
+  <p><img src="https://cdn.glitch.me/272f8536-a53a-4fba-99bc-56b6724131b0%2Fsketch.png?v=1638865476135"/></p>
+  <p>  <img src="https://cdn.glitch.me/272f8536-a53a-4fba-99bc-56b6724131b0%2Fsketch2.png?v=1638865477876"/></p>
+  <p><img src="https://cdn.glitch.me/272f8536-a53a-4fba-99bc-56b6724131b0%2Fsketch3.png?v=1638865479218" /></p>
+  </center>
+    </div>           
+  </div>
+      <p>
+By using F.R.I.E.S to inform my interface design, I chose to first have a start page where I can be completely transparent with the person using my application. I intentially used language that is more personable and not austere like the language in most terms & agreements. If the person declines, they'll need to move the slider thumb to the left and they'll be lead to a stop page with text that emotes a friendly departure. If the person agrees to turn on their camera, they must move the slider thumb all the way to the right. I intentionally set the value of the slider thumb further away from the "agree" option because it would allow the person a little more time to come to their own terms about whether they actually want to turn on their camera.
+      </p>
+  <p>
+    Once the maximum slider value is reached, the application then turns on the camera and the experimental camera project I designed in project #8 will show in the next scene. There are two clear and distinct buttons on the bottom of the canvas that allow the person to capture the current frame (snapshot) and a button that brings the person to the stop page.
+  </p>
+    
+
+
+
+
+      <!-- 4. reflection -->
+      <h1>
+        Reflection
+      </h1>
+      
+      <p>
+I'm grateful to have learned about consentful technologies, interfaces, and F.R.I.E.S. If anything, this information has made me more aware of how technologies obtain my data and the tactics they use that are non-consentful of my digital body.
+      </p>
+  <p>
+     As for the project, it was interesting to learn how DOM elements in html and css can be called into javascript with .addClass();. I'm also proud of myself for figuring out the first steps to solve the issue of turning the camera on and off with the user's consent, and I'm grateful for Kevin lin for teaching me why my functions weren't working properly.
+  </p>
+      
+       <!-- 5. reflection -->
+      <h1>
+        Credits
+      </h1>
+      
+      <p>
+        This project would not be possible without the lecture tutorials by Kevin Cadena and Coding Train's tutorial videos on manipulating, handling, and interacting DOM elements with p5js. I also credit p5js user "<a href="https://editor.p5js.org/vut057/sketches/9YoK03qBp">amygoodchild</a>" for the css styles and their annotations on the sliders, which then inferred my understanding to style my buttons in css as well. I also learned from Kevin Lin during DT Study about the mistakes I made and the logic behind the code that turns on the camera only through the slider.
+      </p>
+      
+    </div>
+  </body>
+</html>
