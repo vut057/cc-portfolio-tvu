@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Tracy Vu | Critical Computation I Portfolio</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+
+  <body>
+    <!-- navigation menu -->
+    <div class="nav">
+      <h1>Tracy Vu</h1>
+      <ul>
+        <li>Project <a href="p1.html">#1</a></li>
+        <li>Project <a href="p2.html">#2</a></li>
+        <li>Project <a href="p3.html">#3</a></li>
+        <li>Project <a href="p4.html">#4</a></li>
+        <li>Project <a href="p5.html">#5</a></li>
+        <li>Project <a href="p6.html">#6</a></li>
+        <li>Project <a href="p7.html">#7</a></li>
+        <li>Project <a href="p8.html">#8</a></li>
+        <li>Project <a href="p9.html">#9</a></li>
+      </ul>
+    </div>
+
+    <!-- main content -->
+    <div class="content">
+      <!-- 1. give your project  a titile -->
+
+      <h1>
+        Project #1: Lost & Found
+      </h1>
+
+      <!-- 2. embed your p5 sketch -->
+
+      <div class="fullwidth">
+        <!-- below width and height refers to the dimensions of your sketch-->
+
+        <iframe
+          allow="camera"
+          width="400px"
+          height="400px"
+          src="https://preview.p5js.org/vut057/embed/d3JTZPRcqR"
+        ></iframe>
+        
+      </div>
+
+      <!-- 3. write a short description to describe what the work is about -->
+      <h1>
+        Object Description
+      </h1>
+
+      <h2>
+        Brandon Iles
+      </h2>
+      <p>
+        <em>Several months ago I was coming up to the front door of my apartment, and as I reached for my keys on my belt loop, I realized that they had disappeared. Being a large and clanky set of keys, they seemed hard to misplace, yet here I was standing at my front door unable to unlock it. There are five keys total on the keychain- three, regular sized, bronze keys; one regular sized silver key; and one, small, silver mail key. Two music festival wristbands were tied to the keys, one being magenta and the other being brown. A keychain in the shape of a bright red, 3-D heart was also attached to the keys, which said California on it, along with a flat, oval piece of plastic that displayed a photo of my friend. There was also a small, rectangular library card attached with an identical shaped Blick membership card. Lastly, the keychain contained an oval bottle opener that was blue and green and said “I love California” on it.
+        </em>
+      </p>
+
+
+      <!-- 4. reflection -->
+      <h1>
+        Reflection
+      </h1>
+
+      <p>
+        Brandon describes his lost object in plain English. He first starts describing the moment he figured out he lost his keys as he tried to unlock his front door and it set the premise of what I imagined to be a hefty set of keys that he lost. I think what's interesting is that the heftiness of his physical keys is emulated by the heftiness of his description. Sentimentality seems to be the overarching theme for his set of keys as he added more detail in the objects that say 'California', the photo of his friend, and the music festival wristbands. In his whole description, the two cards had the least amount of information on them and I was left to figure out what colors they might have been.
+    
+      </p>
+      <p>
+        My interpretation of Brandon's description was to simply overlay the objects on top of each other in such a way that the least important items were almost indistinguishable. I hoped that overlaying the objects closely in a compact manner would also add to the sense of 'heftiness' to the set of keys in 2D form. I used my personal understanding of what a key looks like and created one with an ellipse, a rectangle that overlaps just slightly over the ellipse, and a triangle connected to the other end of the rectangle. Although three of the keys were the same bronze color, I used different tones of bronze to differentiate the keys from each other. Since the larger keys were all the same size, I copied the code for one key and then translated and rotated each one. 
+      </p>
+      
+      <p>
+        In the process of creating the code, I had initially wanted the heart near the forefront of the image, however, I had trouble working with the bezier curve and didn't want to copy and paste someone else's code. I instead put it behind the keys to simulate a heart with two bright red ellipses. I also wanted to use the bezier curve to create wavy wristbands but also had trouble with that. Although I wanted to add them in to reference the sentimental vaule of these objects, I unfortunately could not add those in.
+      </p>
+      
+      <p>
+        The keyring posed some issues due to my limitations with code right now. I initially thought about using two arcs but I couldn't get them to connect (I realize now that I could've attempted to use beginShape). In retrospect, two arcs without a bezier curve may have made the keyring look too flat. Instead, I used two ellipses: one in gray and one in the same color as the background to overlap the gray to create negative space. The only thing that bugs me is that the front end of the keyring does not overlap the front key and that's because the negative space is a solid fill.
+      </p>
+
+      <p>
+        Finally, as I was working on the code, it became clear to me that I had drawn the keys off-center. At first I thought to translate the whole set of keys to the center but then I thought about how I could use the negative space in the canvas to create different colored shapes with varying opacities to present a feeling of chaos from losing the keys. I think I could improve on this by incorporating more of these shapes and with more 'alarming' colors.
+      </p>
+
+
+      
+    </div>
+  </body>
+</html>
